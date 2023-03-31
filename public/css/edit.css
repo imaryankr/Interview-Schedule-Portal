@@ -1,0 +1,14 @@
+.room {
+  text-align: center;
+  padding: 5%;
+  margin: 100px auto;
+  width: 40%;
+}
+
+tr {
+  margin: 300px
+}
+
+body {
+  background-color: blue;
+}

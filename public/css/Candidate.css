@@ -1,0 +1,32 @@
+body {
+  /* background-color: #C1C1C1; */
+  background-color: #fbeec1  ;
+  /* background-image: url("https://www.transparenttextures.com/patterns/black-linen.png"); */
+}
+
+.container {
+  padding: 20px;
+  margin: 30px auto;
+  width: 40%;
+  height: 30%;
+  background-color: #F7F7F9;
+}
+
+h2 {
+  color: #162626;
+  text-align: center
+}
+
+.form-container {
+  margin: 60px auto;
+  width: 70%;
+}
+
+.input-element {
+  padding-bottom: 1rem;
+}
+
+.button {
+  margin-left: 35%;
+  margin-top: 1rem;
+}

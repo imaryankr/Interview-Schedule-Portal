@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Create an Interview</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style media="screen">
+    body {
+      background-color: #fbeec1  ;
+      /* background-image: url("https://www.transparenttextures.com/patterns/black-linen.png"); */
+      width: 50%;
+      margin: 4% auto;
+    }
+    button {
+      margin-top: 20px;
+      margin-left: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <button onclick="history.back()">Go Back</button> -->
+  <form class="" action="/<%=user._id%>/edit" method="post">
+    <div class="form-group">
+      <table class="table">
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col"><%=user.name%></th>
+        </tr>
+        <tr>
+          <th scope="col">Email ID</th>
+          <th scope="col"><%=user.email%></th>
+        </tr>
+        <tr>
+          <th scope="col">Mobile Number</th>
+          <th scope="col"><%=user.mobile%></th>
+        </tr>
+        <tr>
+          <th scope="col">Company Id</th>
+          <th scope="col"><%=user.companyId%></th>
+        </tr>
+        <tr>
+          <th scope="col">Select Slot</th>
+          <th scope="col">
+            <select class="time" name="time" required = "true">
+            <option value="slot 1">Slot 1 9:00 AM to 9:45 AM</option>
+            <option value="slot 2">Slot 2 10:00 AM to 10:45 AM</option>
+            <option value="slot 3">Slot 3 11:00 AM to 11:45 AM</option>
+            <option value="slot 4">Slot 4 12:00 AM to 12:45 AM</option>
+            </select>
+          </th>
+        </tr>
+        <tr>
+          <th><button class="btn btn-primary" type="submit" name="button">Edit Time</button></th>
+        </tr>
+      </table>
+    </div>
+
+  </form>
+</body>
+
+</html>
