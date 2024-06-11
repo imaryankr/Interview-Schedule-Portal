@@ -11,7 +11,7 @@ also add a new interview by clicking the "Create an Interview" button. This wil
 
 I had considered 11 candidates data, which I had divided depending on slots and companies. I'm going to demonstrate an error by assigning a candidate to a slot where 
 he or she is also participating in an interview with another company (this throws an error showing the candidate is scheduled in an other interview in the same slot). 
-As noted in the problem description, if a slot has just one candidate for the interview, the status of the interview will be presented as cancelled on the Interviews List Page.
+If a slot has just one candidate for the interview, the status of the interview will be presented as cancelled on the Interviews List Page.
 
 
 ## DataBase Schema 
